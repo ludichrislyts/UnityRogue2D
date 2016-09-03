@@ -65,12 +65,13 @@
      <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
      <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
-     <Compile Include="Assets\OVR\Prefabs\Wall.cs" />
      <Compile Include="Assets\OVR\Scripts\BoardManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\Enemy.cs" />
      <Compile Include="Assets\OVR\Scripts\GameManager.cs" />
      <Compile Include="Assets\OVR\Scripts\Loader.cs" />
-     <Compile Include="Assets\OVR\Scripts\MovingScript.cs" />
+     <Compile Include="Assets\OVR\Scripts\MovingObject.cs" />
      <Compile Include="Assets\OVR\Scripts\Player.cs" />
+     <Compile Include="Assets\OVR\Scripts\Wall.cs" />
      <Compile Include="Assets\OVR\Util\OVRCameraRig.cs" />
      <Compile Include="Assets\OVR\Util\OVRCommon.cs" />
      <Compile Include="Assets\OVR\Util\OVRDebugInfo.cs" />
