@@ -45,52 +45,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Completed\Scripts\BoardManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Enemy.cs" />
-     <Compile Include="Assets\Completed\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Loader.cs" />
-     <Compile Include="Assets\Completed\Scripts\MovingObject.cs" />
-     <Compile Include="Assets\Completed\Scripts\Player.cs" />
-     <Compile Include="Assets\Completed\Scripts\SoundManager.cs" />
-     <Compile Include="Assets\Completed\Scripts\Wall.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRVolumeControl.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRChromaticAberration.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugGraph.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRInputControl.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRModeParms.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
-     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
      <Compile Include="Assets\OVR\Scripts\BoardManager.cs" />
      <Compile Include="Assets\OVR\Scripts\Enemy.cs" />
      <Compile Include="Assets\OVR\Scripts\GameManager.cs" />
      <Compile Include="Assets\OVR\Scripts\Loader.cs" />
      <Compile Include="Assets\OVR\Scripts\MovingObject.cs" />
      <Compile Include="Assets\OVR\Scripts\Player.cs" />
+     <Compile Include="Assets\OVR\Scripts\SoundManager.cs" />
      <Compile Include="Assets\OVR\Scripts\Wall.cs" />
-     <Compile Include="Assets\OVR\Util\OVRCameraRig.cs" />
-     <Compile Include="Assets\OVR\Util\OVRCommon.cs" />
-     <Compile Include="Assets\OVR\Util\OVRDebugInfo.cs" />
-     <Compile Include="Assets\OVR\Util\OVRDisplay.cs" />
-     <Compile Include="Assets\OVR\Util\OVRGamepadController.cs" />
-     <Compile Include="Assets\OVR\Util\OVRGridCube.cs" />
-     <Compile Include="Assets\OVR\Util\OVRInput.cs" />
-     <Compile Include="Assets\OVR\Util\OVRManager.cs" />
-     <Compile Include="Assets\OVR\Util\OVROnCompleteListener.cs" />
-     <Compile Include="Assets\OVR\Util\OVRPlayerController.cs" />
-     <Compile Include="Assets\OVR\Util\OVRPlugin.cs" />
-     <Compile Include="Assets\OVR\Util\OVRProfile.cs" />
-     <Compile Include="Assets\OVR\Util\OVRSceneSampleController.cs" />
-     <Compile Include="Assets\OVR\Util\OVRScreenFade.cs" />
-     <Compile Include="Assets\OVR\Util\OVRTracker.cs" />
-     <Compile Include="Assets\OVR\Util\OVRTrackerBounds.cs" />
-     <None Include="Assets\OVR\Moonlight\Shaders\OVRColorRampAlpha.shader" />
-     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
-     <None Include="Assets\OVR\Moonlight\Resources\Unlit Transparent Color.shader" />
      <None Include="Assets\Fonts\OFL.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

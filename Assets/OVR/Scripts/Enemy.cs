@@ -4,6 +4,8 @@ using System.Collections;
 public class Enemy : MovingObject {
 
 	public int playerDamage;
+	public AudioClip attack1;
+	public AudioClip attack2;
 
 	private Animator animator;
 	private Transform target;
@@ -32,9 +34,9 @@ public class Enemy : MovingObject {
 		int xDir = 0;
 		int yDir = 0;
 
-		if (Mathf.Abs (target.position.x - transform.position.x) < float.Epsilon) {
+		if (Mathf.Abs (target.position.x - transform.position.x) < float.Epsilon) 
 			yDir = target.position.y > transform.position.y ? 1 : -1;
-		} else
+		else
 			xDir = target.position.x > transform.position.x ? 1 : -1;
 
 		AttemptMove<Player> (xDir, yDir);
@@ -43,7 +45,8 @@ public class Enemy : MovingObject {
 	protected override void OnCantMove<T>(T component)
 	{
 		Player hitPlayer = component as Player;
-		animator.SetTrigger ("enemyAttack");
 		hitPlayer.LoseFood (playerDamage);
+		animator.SetTrigger ("enemyAttack");
+		SoundManager.instance.RandomizeSfx (attack1, attack2);
 	}
 }
